@@ -1,0 +1,32 @@
+.Education {
+	height: 65vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+.Education-Details {
+	width: 99%;
+
+	display: flex;
+	justify-content: space-around;
+}
+.Education-Details-List {
+	width: 32%;
+	border-top: 4px solid gray;
+	border-bottom: 4px solid gray;
+	margin: 0;
+}
+.Education-Details-List-Title {
+	font-size: 1.6rem;
+	font-weight: 500;
+}
+.Education-Details-List-Ul {
+	list-style: none;
+	padding: 0;
+}
+.Education-Details-List-Ul li {
+	font-size: 0.9rem;
+	text-decoration: gray;
+	margin: 8px;
+}

@@ -1,0 +1,13 @@
+.Mypages {
+	width: 80%;
+	height: 100%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+}
+@media all and (max-width: 400px) {
+	.Mypages {
+		width: 100%;
+	}
+}

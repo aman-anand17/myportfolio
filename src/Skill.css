@@ -1,0 +1,30 @@
+.Skill {
+	display: flex;
+	width: 80%;
+	margin: 1vh auto;
+	height: 65vh;
+	justify-content: center;
+	flex-direction: row;
+	align-content: space-evenly;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	text-align: left;
+}
+.Skill-h2 {
+	width: 100%;
+	font-size: 2rem;
+	text-align: center;
+}
+.Skill-types {
+	width: 25%;
+
+	/*box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);*/
+}
+.Skill-types .Skill-types-bar {
+	width: 60%;
+	margin: 2% auto;
+	stroke: #fff;
+}
+.Skill-types .CircularProgressbar .CircularProgressbar-path {
+	stroke: rgb(156 22 13);
+}
