@@ -61,6 +61,10 @@
 	position: relative;
 	z-index: 2;
 }
+.Navbar .myactiveclass {
+	background-color: #fff;
+	color: #000;
+}
 @media all and (max-width: 600px) {
 	.Navbar {
 		position: absolute;

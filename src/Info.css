@@ -57,10 +57,26 @@
 }
 .Info-text-description .socialmedia {
 	margin-right: 1rem;
-	width: 17px;
+	width: 21px;
+	transition-duration: 0.4s;
+	transition-property: all;
+	border-radius: 50%;
+	color: #fff;
+	background-color: #000;
 }
+.Info-text-description .socialmedia:hover {
+	transform: scale(1.4);
+	transition-duration: 0.4s;
+	color: #000;
+	background-color: #fff;
+}
+
 .Info-text-description-a {
 	color: #fff;
+}
+.Info-text-description .instagram {
+	color: #000;
+	background-color: #fff;
 }
 
 @media all and (max-width: 400px) {

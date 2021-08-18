@@ -2,6 +2,12 @@
 	height: 65vh;
 	text-align: center;
 }
+.Project-span {
+	font-size: 1.6rem;
+	font-weight: 500;
+	display: block;
+	margin-top: 1rem;
+}
 @media all and (max-width: 600px) {
 	.Project {
 		height: 80vh;
