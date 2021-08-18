@@ -28,3 +28,12 @@
 .Skill-types .CircularProgressbar .CircularProgressbar-path {
 	stroke: rgb(156 22 13);
 }
+@media all and (max-width: 600px) {
+	.Skill {
+		width: 100%;
+	}
+	.Skill-types {
+		display: flex;
+		justify-content: center;
+	}
+}

@@ -2,7 +2,13 @@ import "./Navbar.css"
 import {NavLink} from "react-router-dom";
 function Navbar(props){
     function handlechange(){
-        props.setIs(false)
+        let x = window.matchMedia("(max-width: 600px)")
+        if (x.matches) { 
+            setTimeout(()=>{
+                props.setIs(false)  
+            },500)
+          }
+        
     }
     return(
         <div  className={`Navbar ${props.toOn?"Navbar-on":""}`}>

@@ -59,6 +59,9 @@
 	margin-right: 1rem;
 	width: 17px;
 }
+.Info-text-description-a {
+	color: #fff;
+}
 
 @media all and (max-width: 400px) {
 	.Info {

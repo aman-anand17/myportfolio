@@ -7,10 +7,17 @@ import todoapp from"./imgs/todoapp.png" ;
 
 
 const data ={
-    1:[hangman,"Hangman : A React Hangman Game The game only comes (by default) with 6 gallows images and therefore should only allow six wrong guesses"],
-    2:[todoapp,"To-Do-App :  Each Todo component should also display a button with the text “edit” that when clicked, displays a form with the task of the todo as an input and a button to submit the form."],
-    3:[pokemon,"Pokemon : This a react based pokecard game of 2 player hand. App renders a component called Pokegame,t also calculates the total experience for each hand of pokemon and determine the winner"],
-    4:[lightout,"Lightout : Lights Out is a logic/puzzle game, played on a gird of individual lights, which can either be lit or unlit. The puzzle is won when when all of the lights are turned off"]
+    2:[hangman,"A React Js Hangman Game The game  only allow six wrong guesses after that it is over."],
+    1:[todoapp,"This is an App to save ,edit,check,delete your to do stuffs at a single place with client side storage made using React Js  "],
+    3:[pokemon,"This a react based pokecard game of 2 player hand.Based on  the total experience for each hand of pokemon and determine the winner"],
+    4:[lightout,"Lights Out is a logic/puzzle game, played on a gird of individual lights, which can either be lit or unlit. The puzzle is won when when all of the lights are turned off"]
+}
+const data2 ={
+    1:['To-Do-App'],
+    2:['Hangman'],
+    3:['Pokemon'],
+    4:['LightOut']
+
 }
 
 
@@ -46,7 +53,17 @@ function Timeline(props){
 
                     </div>
                     <div className="Timeline-Content-Project-Description">
-                        {data[Id][1]}
+                        <h3 className="Timeline-Content-Project-Description-title">
+                            {data2[Id][0]}
+
+                        </h3>
+                        <p className="Timeline-Content-Project-Description-title-text">
+                            {data[Id][1]}
+
+                        </p>
+                        <div className="Timeline-Content-Project-Description-footer">
+
+                        </div>
 
                     </div>
 
