@@ -1,4 +1,4 @@
-import "./Timeline.css";
+import "./Timeline.css"
 import { useState } from "react";
 import hangman from"./imgs/hangman.png" ;
 import lightout from"./imgs/lightout.png" ;
@@ -53,18 +53,15 @@ function Timeline(props){
 
                     </div>
                     <div className="Timeline-Content-Project-Description">
-                        <h3 className="Timeline-Content-Project-Description-title">
+                        <h3>
                             {data2[Id][0]}
 
                         </h3>
-                        <p className="Timeline-Content-Project-Description-title-text">
+                        <p>
                             {data[Id][1]}
 
                         </p>
-                        <div className="Timeline-Content-Project-Description-footer">
-
-                        </div>
-
+                        
                     </div>
 
                 </div>
