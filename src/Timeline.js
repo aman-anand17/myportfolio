@@ -19,6 +19,12 @@ const data2 ={
     4:['LightOut']
 
 }
+const skilldata={
+    1:['React','Hooks','JS'],
+    2:['React','CSS','JS'],
+    3:['React','CSS','JS'],
+    4:['React','CSS','JS'],
+}
 
 
 
@@ -53,14 +59,20 @@ function Timeline(props){
 
                     </div>
                     <div className="Timeline-Content-Project-Description">
-                        <h3>
+                        <h3 className="Timeline-Content-Project-Description-Title">
                             {data2[Id][0]}
 
                         </h3>
-                        <p>
+                        <p className="Timeline-Content-Project-Description-Title-Text">
                             {data[Id][1]}
 
                         </p>
+                        <div className="Timeline-Content-Project-Description-Footer">
+                            {skilldata[Id].map((skill)=>{
+                                return (<span> {skill} </span>)
+                            })}
+
+                        </div>
                         
                     </div>
 

@@ -7,7 +7,7 @@ function Project(props){
 
     return(
         <div className="Project">
-            <span>Project</span>
+            <span className="Project-span">Project</span>
             
             <Timeline></Timeline>
         </div>

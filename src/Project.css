@@ -2,8 +2,11 @@
 	height: 65vh;
 	text-align: center;
 }
-@media all and (max-width: 400px) {
-	.Project span {
+@media all and (max-width: 600px) {
+	.Project {
+		height: 80vh;
+	}
+	.Project-span {
 		font-size: 1.7rem;
 		font-weight: 500;
 		display: block;
