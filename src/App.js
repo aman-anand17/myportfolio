@@ -13,7 +13,7 @@ function App() {
       </svg>
 
       </span>
-      <Navbar toOn={isOn}/>
+      <Navbar setIs={setIsOn} toOn={isOn}/>
       <Mypages/>
       
     </div>

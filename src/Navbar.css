@@ -65,7 +65,7 @@
 	.Navbar {
 		position: absolute;
 		display: none;
-		width: 45%;
+		width: 100%;
 		z-index: 3;
 		background-color: #151111;
 	}
