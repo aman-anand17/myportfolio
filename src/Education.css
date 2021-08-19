@@ -4,6 +4,12 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
+	/*background-color: #9e9e9e29;*/
+}
+.Education h2 svg {
+	width: 25px;
+	height: 25px;
+	margin-left: 1rem;
 }
 .Education-Details {
 	width: 99%;

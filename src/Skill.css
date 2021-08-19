@@ -15,6 +15,11 @@
 	font-size: 2rem;
 	text-align: center;
 }
+.Skill-h2 svg {
+	width: 25px;
+	height: 25px;
+	margin-left: 1rem;
+}
 .Skill-types {
 	width: 25%;
 

@@ -4,10 +4,13 @@
 	color: white;
 	display: flex;
 	width: 100%;
+	/*background-color: #9e9e9e29;*/
 }
 .Info-img {
 	width: 23%;
-	padding: 0;
+	margin-left: 0.6rem;
+	padding-top: 5px;
+
 	display: flex;
 	justify-content: flex-start;
 	margin-right: 3%;
@@ -32,11 +35,14 @@
 }
 .Info-text-name {
 	font-weight: 800;
-	font-size: 2rem;
+	font-size: 1.8rem;
+	padding: 0.5rem;
+	margin: 0;
 }
 .Info-text-description {
 	list-style-type: none;
 	padding: 0%;
+	margin: 0;
 }
 .Info-text-description li {
 	font-size: 0.80rem;
@@ -90,12 +96,15 @@
 	.Info-text {
 		width: 69%;
 		padding: 0;
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
 	}
 	.Info-text-name {
 		font-size: 1.2rem;
 		padding: 0;
 		margin: 0.4rem;
-		margin-left: 00.45rem;
+		margin-left: 0.45rem;
 	}
 	.Info-text-description li {
 		margin: 0.45rem;
@@ -103,19 +112,19 @@
 		line-height: 0.7rem;
 	}
 	.Info-text-description li .Date {
-		font-size: 0.8rem;
-		margin-left: 1%;
+		font-size: 0.9rem;
+		margin-left: 2.5%;
 	}
 	.Info-text-description li .Address {
-		font-size: 0.8rem;
+		font-size: 0.9rem;
 		margin-left: 0.19rem;
 	}
 	.Info-text-description .icons {
-		width: 12px;
+		width: 14px;
 		margin-right: 4px;
 	}
 	.Info-text-description .socialmedia {
 		margin-right: 0.6rem;
-		width: 12px;
+		width: 16px;
 	}
 }
