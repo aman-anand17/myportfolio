@@ -11,11 +11,12 @@
 		position: absolute;
 		color: #fff;
 		height: 32px;
-		bottom: 0;
+		bottom: 8vh;
 		left: 0;
 		width: 100%;
 		border-radius: 28px 28px 1% 1%;
 		border: 2px solid gray;
+		border-bottom: 0px solid gray;
 		padding: 5px 20%;
 	}
 	.Mobilenav a {
@@ -29,7 +30,7 @@
 		width: 18px;
 		height: 18px;
 	}
-	.Mobilenav .mymobilelass {
+	.mymobileclass {
 		border-top: 3px solid #c26929bf;
 		border-bottom: 3px solid #c26929bf;
 	}

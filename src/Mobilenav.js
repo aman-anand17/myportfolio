@@ -3,7 +3,7 @@ import "./Mobilenav.css"
 function Mobilenav(props){
     return(
         <div  className="Mobilenav">
-            <NavLink activeClassName="mymobileclass"  exact to ='/'>
+            <NavLink activeClassName="mymobileclass" exact to ='/'>
             <span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" className="svg bi bi-person-bounding-box" viewBox="0 0 16 16">
                             <path d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1h-3zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5zM.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5z"/>
@@ -21,7 +21,7 @@ function Mobilenav(props){
             </span>
 
             </NavLink>
-            <NavLink activeClassName="mymobilelass"   exact to ='/Project'>
+            <NavLink activeClassName="mymobileclass"  exact to ='/Project'>
             <span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="svg bi bi-easel-fill" viewBox="0 0 16 16">
                          <path d="M8.473.337a.5.5 0 0 0-.946 0L6.954 2H2a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h1.85l-1.323 3.837a.5.5 0 1 0 .946.326L4.908 11H7.5v2.5a.5.5 0 0 0 1 0V11h2.592l1.435 4.163a.5.5 0 0 0 .946-.326L12.15 11H14a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H9.046L8.473.337z"/>
@@ -29,7 +29,7 @@ function Mobilenav(props){
             </span>
 
             </NavLink>
-            <NavLink activeClassName="mymobilelass"  exact to ='/Education'>
+            <NavLink activeClassName="mymobileclass"  exact to ='/Education'>
            
            
             

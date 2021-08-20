@@ -10,14 +10,17 @@
 	width: 23%;
 	margin-left: 0.6rem;
 	padding-top: 5px;
+	margin-top: 1rem;
 
 	display: flex;
-	justify-content: flex-start;
+	justify-content: center;
+	align-items: center;
 	margin-right: 3%;
 }
 .Info-img img {
 	width: 100%;
 	aspect-ratio: 1;
+	height: fit-content;
 	margin: 0;
 	border-radius: 5px;
 	border: 2px solid gray;
@@ -91,13 +94,14 @@
 	}
 	.Info-img {
 		width: 31%;
-		padding: 0.5%;
+		padding: 0;
+		margin-top: 0;
 	}
 	.Info-text {
 		width: 69%;
 		padding: 0;
 		display: flex;
-		justify-content: space-between;
+		justify-content: space-evenly;
 		flex-direction: column;
 	}
 	.Info-text-name {
