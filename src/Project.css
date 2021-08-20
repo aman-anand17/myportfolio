@@ -3,6 +3,11 @@
 	text-align: center;
 	/*background-color: #9e9e9e29;*/
 }
+.Project .Project-icon {
+	width: 25px;
+	height: 25px;
+	margin-left: 1rem;
+}
 .Project-span {
 	font-size: 1.6rem;
 	font-weight: 500;
@@ -11,7 +16,7 @@
 }
 @media all and (max-width: 600px) {
 	.Project {
-		height: 80vh;
+		height: 77vh;
 	}
 	.Project-span {
 		font-size: 1.7rem;

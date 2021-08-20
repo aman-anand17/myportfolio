@@ -1,6 +1,7 @@
 import Navbar from "./Navbar.js"
 import Mypages from "./Mypages.js"
 import { useState } from "react";
+import Mobilenav from "./Mobilenav.js";
 import './App.css';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       </span>
       <Navbar setIs={setIsOn} toOn={isOn}/>
       <Mypages/>
+      <Mobilenav></Mobilenav>
       
     </div>
   );
