@@ -66,7 +66,7 @@
 	background-color: #fff;
 	color: #000;
 }
-@media all and (max-width: 600px) {
+@media all and (max-width: 576px) {
 	.Navbar {
 		position: absolute;
 		display: none;

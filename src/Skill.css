@@ -33,7 +33,7 @@
 .Skill-types .CircularProgressbar .CircularProgressbar-path {
 	stroke: rgb(156 22 13);
 }
-@media all and (max-width: 600px) {
+@media all and (max-width: 576px) {
 	.Skill {
 		width: 100%;
 	}

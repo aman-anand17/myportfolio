@@ -88,13 +88,14 @@
 	background-color: #fff;
 }
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 576px) {
 	.Info {
 		height: 20vh;
 	}
 	.Info-img {
 		width: 31%;
 		padding: 0;
+		padding-top: 5px;
 		margin-top: 0;
 	}
 	.Info-text {

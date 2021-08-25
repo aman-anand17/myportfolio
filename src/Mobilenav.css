@@ -3,7 +3,7 @@
 	background-color: #9e9e9e2b;
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 576px) {
 	.Mobilenav {
 		display: flex;
 		justify-content: space-evenly;

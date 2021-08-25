@@ -13,7 +13,7 @@
 	line-height: 2.3rem;
 	text-align: left;
 }
-@media all and (max-width: 400px) {
+@media all and (max-width: 576px) {
 	.About-text {
 		font-size: 1.5rem;
 	}

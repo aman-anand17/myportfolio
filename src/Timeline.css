@@ -63,7 +63,7 @@
 	margin: 1rem;
 	width: 25%;
 }
-@media all and (max-width: 400px) {
+@media all and (max-width: 576px) {
 	.Timeline-Content-Project {
 		flex-direction: column;
 		justify-content: flex-start;
