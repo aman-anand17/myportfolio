@@ -4,19 +4,22 @@ import hangman from"./imgs/hangman.png" ;
 import lightout from"./imgs/lightout.png" ;
 import pokemon from"./imgs/pokemon.jpeg" ;
 import todoapp from"./imgs/todoapp.png" ;
+import newsbook from"./imgs/newsbook.jpg" ;
 
 
 const data ={
     2:[hangman,"A React Js Hangman Game The game  only allow six wrong guesses after that it is over."],
     1:[todoapp,"This is an App to save ,edit,check,delete your to do stuffs at a single place with client side storage made using React Js  "],
     3:[pokemon,"This a react based pokecard game of 2 player hand.Based on  the total experience for each hand of pokemon and determine the winner"],
-    4:[lightout,"Lights Out is a logic/puzzle game, played on a gird of individual lights, which can either be lit or unlit. The puzzle is won when when all of the lights are turned off"]
+    4:[lightout,"Lights Out is a logic/puzzle game, played on a gird of individual lights, which can either be lit or unlit. The puzzle is won when when all of the lights are turned off"],
+    5:[newsbook,'This is React SPA , to get the news from world wide through gnews.io API . Even news can be searched with keywords across varies categories like Entertainment, Business, Tech, Sports , Trending,etc ']
 }
 const data2 ={
     1:['To-Do-App'],
     2:['Hangman'],
     3:['Pokemon'],
-    4:['LightOut']
+    4:['LightOut'],
+    5:['Newsbook']
 
 }
 const skilldata={
@@ -24,6 +27,7 @@ const skilldata={
     2:['React','CSS','JS'],
     3:['React','CSS','JS'],
     4:['React','CSS','JS'],
+    5:['React','CSS','JS'],
 }
 
 
@@ -38,13 +42,13 @@ function Timeline(props){
         <div className="Timeline">
             
                 <span className="Timeline-Nav-Left">
-                <svg  onClick={()=>{Id>1?SetId(Id-1):SetId(4)}}  xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" className="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+                <svg  onClick={()=>{Id>1?SetId(Id-1):SetId(5)}}  xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" className="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
                  <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
                 </svg>
 
                 </span>
                 <span className="Timeline-Nav-Right" >
-                <svg  onClick={()=>{Id<4?SetId(Id+1):SetId(1)}} xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" className="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                <svg  onClick={()=>{Id<5?SetId(Id+1):SetId(1)}} xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" className="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
                             <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
                                     </svg>
 
